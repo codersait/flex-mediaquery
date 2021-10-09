@@ -36,7 +36,7 @@ nav ul a {
 }
 
 .box {
-  margin-top: 300px;
+  margin-top: 100px;
   border: 10px solid red;
   align-self: center;
   flex-basis: 150px;
@@ -102,7 +102,12 @@ nav ul a {
   .header {
     background: white;
   }
+  .box2 {
+    width: 80vw;
+    /* flex-basis: auto; */
+  }
   .box2 p {
-    padding: 0 30rem;
+    /* padding: 0 30rem; */
+    margin: auto;
   }
 }
